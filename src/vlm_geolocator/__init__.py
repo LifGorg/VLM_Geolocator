@@ -1,10 +1,10 @@
 """
-VLM Geolocator - 视觉语言模型地理定位系统
+VLM Geolocator - Vision Language Model Geolocation System
 
-一个模块化的系统，用于从无人机视频流中检测目标并估算其GPS坐标。
+A modular system for detecting targets from drone video streams and estimating their GPS coordinates.
 """
 __version__ = '2.0.0'
-__author__ = 'VLM Geolocator Team'
+__author__ = 'LifGorg'
 
 from . import core
 from . import sensors
@@ -19,4 +19,3 @@ __all__ = [
     'vision',
     'ros_interface'
 ]
-
