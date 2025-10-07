@@ -315,15 +315,9 @@ ros2 topic echo /manual_targets/geolocated
 ### v1.0.0 (Proof of Concept)
 - Basic functionality implementation
 
-## 📄 License
-
-MIT License - See LICENSE file for details
 
 ## 👥 Contributors
 
 **LifGorg** - Main developer and maintainer
 
-## 📞 Contact
-
-For questions or issues, please open an issue on GitHub.
 
