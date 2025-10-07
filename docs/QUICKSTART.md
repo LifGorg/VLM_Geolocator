@@ -24,12 +24,11 @@ nvidia-smi
 ```bash
 cd /home/triage/vlm_geolocator
 
-# Install Python dependencies
-pip install -r requirements.txt
+# Install the package in editable mode (this also installs dependencies)
+pip install -e .
 
 # Set up environment
 source /opt/ros/humble/setup.bash
-export PYTHONPATH="${PYTHONPATH}:$(pwd)/src"
 ```
 
 ### Step 2: Check Configuration

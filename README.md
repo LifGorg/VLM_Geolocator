@@ -88,8 +88,8 @@ pip install -r requirements.txt
 ```bash
 cd /home/triage/vlm_geolocator
 
-# Set Python path
-export PYTHONPATH="${PYTHONPATH}:/home/triage/vlm_geolocator/src"
+# Install the package in editable mode
+pip install -e .
 
 # If you have a ROS workspace, source it
 source /opt/ros/humble/setup.bash
@@ -126,7 +126,6 @@ System parameters (timeouts, model path, etc.)
 ```bash
 # Set up environment
 source /opt/ros/humble/setup.bash
-export PYTHONPATH="${PYTHONPATH}:/home/triage/vlm_geolocator/src"
 
 # Start vision inference node
 python3 src/vision_inference_node_refactored.py

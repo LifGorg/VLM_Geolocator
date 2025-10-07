@@ -26,9 +26,8 @@ else
     echo "   ⚠️  ROS workspace does not exist"
 fi
 
-# Set Python path
-export PYTHONPATH="${PYTHONPATH}:${PROJECT_DIR}/src"
-echo "   ✅ Python path: $PYTHONPATH"
+# Note: Package should be installed with 'pip install -e .' before running
+echo "   ✅ Environment ready"
 
 # Start vision inference node
 echo ""
